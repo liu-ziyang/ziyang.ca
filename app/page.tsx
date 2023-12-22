@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <main className="flex min-h-screen flex-col items-center justify-between p-12">
+      <div className="z-0 w-auto items-end place-content-end font-mono text-sm">
         <a 
           href="/resume-ziyang-liu.pdf"
           target="_blank"
@@ -43,7 +43,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/ziyang-liu-2783b026b/"
+          href="https://www.linkedin.com/in/liu-ziyang"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
