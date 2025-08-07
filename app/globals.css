@@ -4,24 +4,50 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
+  --title-color: 60, 120, 180;
+  --content-color: 255, 255, 255;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --link-color: 80, 90, 110;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
+    --title-color: 120, 180, 220;
+    --content-color: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --link-color: 160, 180, 200;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 body {
   color: rgb(var(--foreground-rgb));
+  min-height: 100vh;
+  background-color: rgb(var(--background-start-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+/* Title color for headings */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(var(--title-color));
+}
+
+/* Content color for paragraphs and links */
+p, a {
+  color: rgb(var(--content-color));
 }
