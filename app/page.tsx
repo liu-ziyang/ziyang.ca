@@ -2,10 +2,10 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center p-12 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-black transition-all">
+    <main className="h-screen max-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-br from-white to-gray-100 dark:from-gray-900 dark:to-black transition-all overflow-hidden">
 
       {/* Avatar Section */}
-      <section className="mb-12 flex flex-col items-center text-center">
+      <section className="mb-8 flex flex-col items-center text-center">
         <Image
           src="/avatar.png"
           alt="Avatar of Ziyang"
@@ -18,7 +18,7 @@ export default function Home() {
       </section>
 
       {/* Link Cards */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-5xl text-center lg:text-left">
+      <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-5xl text-center lg:text-left">
         <LinkCard 
           href="https://github.com/liu-ziyang" 
           title="GitHub" 
