@@ -9,8 +9,8 @@ export default function Home() {
         <Image
           src="/avatar.png"
           alt="Avatar of Ziyang"
-          width={88}
-          height={88}
+          width={128}
+          height={128}
           className="rounded-full mb-2 border-2 border-gray-200 dark:border-gray-700"
         />
         <h1 className="text-2xl font-bold">Ziyang Liu</h1>
