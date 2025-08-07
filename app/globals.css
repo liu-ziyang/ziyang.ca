@@ -24,20 +24,21 @@
 
 html {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  min-height: 100vh;
-  background: linear-gradient(
-    to bottom,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-end-rgb))
-  );
+
+/* Hide scrollbar for all browsers */
+html, body {
+  overflow: hidden;
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
 }
 
 /* Title color for headings */
