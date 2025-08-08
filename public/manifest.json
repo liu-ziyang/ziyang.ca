@@ -3,9 +3,13 @@
   "name": "Website for ziyang.ca",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "icon.png",
       "sizes": "512x512 192x192 64x64 32x32 24x24 16x16",
-      "type": "image/svg"
+      "type": "image/png"
+    }, {
+      "src": "icon-dark.png",
+      "sizes": "512x512 192x192 64x64 32x32 24x24 16x16",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
