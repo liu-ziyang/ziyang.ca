@@ -1,6 +1,6 @@
 {
   "name": "ziyang.ca",
-  "version": "v2023.11.11",
+  "version": "v2025.08.08",
   "private": true,
   "scripts": {
     "dev": "next dev",
