@@ -29,12 +29,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-## Project Structure
-
-- `app/` — Main application code (pages, layout, styles)
-- `public/` — Static assets (avatar, icons, resume)
-- `tailwind.config.ts` — Tailwind CSS configuration
-
 ---
 
 © Ziyang Liu. Built with Next.js.

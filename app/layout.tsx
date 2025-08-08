@@ -8,22 +8,8 @@ export const metadata: Metadata = {
   title: 'Ziyang.ca',
   description: 'Personal website and portfolio of Ziyang Liu, software engineer.',
   icons: {
-    icon: [
-      {
-        media: '(prefers-color-scheme: light)',
-        url: '/icon.png',
-        href: '/icon-light.png',
-      }, {
-        media: '(prefers-color-scheme: dark)',
-        url: '/icon.png',
-        href: '/icon-dark.png',
-      },
-    ],
-    apple: {
-      media: '(prefers-color-scheme: light)',
-      url: '/icon.png',
-      href: '/icon-light.png',
-    }
+    icon: '/icon.svg',
+    apple: '/icon.svg',
   },
 }
 
